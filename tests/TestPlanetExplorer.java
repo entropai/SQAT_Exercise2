@@ -82,6 +82,13 @@ public class TestPlanetExplorer {
 		assertEquals("Explorer position invalid after moving backwards", "(4,8,E)" , status);
 	}
 	
+	@Test
+	public void test_executeMoveForwardFacingEastCommand() {
+		explorer.setPosition(7,6);
+		explorer.setHeading(PlanetExplorer.heading.EAST);
+		String status = explorer.executeCommand(MOVE_FORWARD);		
+		assertEquals("Explorer position invalid after moving forward", "(7,7,N)" , status);
+	}
 	
 	
 	/*
