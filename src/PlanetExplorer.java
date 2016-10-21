@@ -53,8 +53,10 @@ public class PlanetExplorer {
 			return parseStatus();
 		}
 		
-		if(command.equals("r"))
-			return parseStatus();		
+		if(command.equals("r")) {
+			turnRight();
+			return parseStatus();
+		}
 		
 		return null;
 	}
