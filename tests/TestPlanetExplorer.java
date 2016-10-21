@@ -7,8 +7,8 @@ public class TestPlanetExplorer {
 		
 	// Headings
 	static String LANDING_STATUS = "(0,0,N)";
-	static String HEADING_STATUS_LEFT ="(0,0,W)";
-	static String HEADING_STATUS_RIGHT ="(0,0,E)";	
+	static String HEADING_STATUS_LEFT_AFTER_LANDING ="(0,0,W)";
+	static String HEADING_STATUS_RIGHT_AFTER_LANDING ="(0,0,E)";	
 	
 	// Commands	
 	static String NO_COMMAND = "";
@@ -47,13 +47,13 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_executeTurnInPlaceLeftCommand() {
 		String status = explorer.executeCommand(TURN_LEFT_INPLACE);
-		assertEquals("Explorer heading invalid in while turning left", HEADING_STATUS_LEFT, status);
+		assertEquals("Explorer heading invalid in while turning left", HEADING_STATUS_LEFT_AFTER_LANDING, status);
 	}
 	
 	@Test
 	public void test_executeTurnInPlaceRightCommand() {
 		String status = explorer.executeCommand(TURN_RIGHT_INPLACE);
-		assertEquals("Explorer heading invalid in while turning right", HEADING_STATUS_RIGHT, status);
+		assertEquals("Explorer heading invalid in while turning right", HEADING_STATUS_RIGHT_AFTER_LANDING, status);
 	}
 	
 }
