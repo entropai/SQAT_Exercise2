@@ -214,3 +214,6 @@ RefactoringAction 1477052246741 PlanetExplorer.java RENAME Position=>String posi
 CompilationAction 1477052253720 TestPlanetExplorer.java
 RefactoringAction 1477052258761 PlanetExplorer.java RENAME setStatus(String)=>void setPosition(String) METHOD
 EditAction 1477052260032 PlanetExplorer.java 1741 6 9 0
+CompilationAction 1477052261869 TestPlanetExplorer.java
+CompilationAction 1477052261870 TestPlanetExplorer.java
+EditAction 1477052265762 TestPlanetExplorer.java 2428 6 15 7
