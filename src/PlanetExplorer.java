@@ -113,8 +113,7 @@ public class PlanetExplorer {
 	
 	private void moveBackwards() {
 		posX -= 1;
-	}
-	
+	}	
 	
 	private String headingToString(heading to) {
 		switch(to) {
