@@ -9,6 +9,13 @@ public class PlanetExplorer {
 	private String position;	
 	private int posX = 0;
 	private int posY = 0;
+	private enum direction {
+		NORTH,
+		EAST,
+		WEST,
+		SOUTH		
+	} 
+	
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.

@@ -228,3 +228,12 @@ CompilationAction 1477052299676 PlanetExplorer.java
 UnitTestCaseAction 1477052301948 TestPlanetExplorer.java OK
 UnitTestSessionAction 1477052301949 TestPlanetExplorer.java OK
 EditAction 1477052338678 PlanetExplorer.java 1842 7 10 0
+RefactoringAction 1477052367461 PlanetExplorer.java RENAME PlanetExplorer(int, int, String)=>enum DIRE null
+RefactoringAction 1477052369476 PlanetExplorer.java RENAME DIRE=>enum DIRECTION null
+RefactoringAction 1477052372993 PlanetExplorer.java RENAME DIRECTION=>enum direction null
+RefactoringAction 1477052389547 PlanetExplorer.java ADD direction NORTH FIELD
+RefactoringAction 1477052389549 PlanetExplorer.java ADD direction SOUTH FIELD
+RefactoringAction 1477052395569 PlanetExplorer.java RENAME SOUTH=>direction EAST FIELD
+RefactoringAction 1477052396585 PlanetExplorer.java ADD direction So FIELD
+RefactoringAction 1477052398102 PlanetExplorer.java RENAME So=>direction SOUTH FIELD
+EditAction 1477052402582 PlanetExplorer.java 1909 7 10 0
