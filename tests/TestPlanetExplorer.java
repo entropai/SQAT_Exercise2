@@ -17,6 +17,7 @@ public class TestPlanetExplorer {
 	static String COMMAND_MOVE_FORWARD = "f";
 	static String COMMAND_MOVE_BACKWARDS = "b";
 	static String COMMAND_MOVE_FORWARD_3_TIMES = "fff";
+	static String COMMAND_FFRFF = "ffrff";
 	
 	// Fixture
 	static int DEFAULT_WIDTH  = 100;
@@ -120,6 +121,12 @@ public class TestPlanetExplorer {
 	
 	@Test 
 	public void test_executeThreeMoveForwardCommands() {
+		String status = explorer.executeCommand(COMMAND_MOVE_FORWARD_3_TIMES);
+		assertEquals("Explorer position invalid 3 move forward commands", "(0,3,N)", status);
+	}
+	
+	@Test 
+	public void test_executeCommandSequenceFFRFF() {
 		String status = explorer.executeCommand(COMMAND_MOVE_FORWARD_3_TIMES);
 		assertEquals("Explorer position invalid 3 move forward commands", "(0,3,N)", status);
 	}

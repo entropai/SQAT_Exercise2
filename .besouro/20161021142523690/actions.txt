@@ -571,3 +571,21 @@ EditAction 1477056905215 PlanetExplorer.java 3522 15 18 0
 UnitTestCaseAction 1477056910645 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1477056910646 TestPlanetExplorer.java FAIL
 EditAction 1477056925138 TestPlanetExplorer.java 4493 13 45 14
+UnitTestCaseAction 1477056928053 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477056928054 TestPlanetExplorer.java OK
+RefactoringAction 1477057020779 TestPlanetExplorer.java ADD void test_executeThreeMoveForwardCommands()/2 METHOD
+RefactoringAction 1477057023350 TestPlanetExplorer.java RENAME test_executeThreeMoveForwardCommands()/2=>void test_executeMoveForwardCommands() METHOD
+RefactoringAction 1477057025023 TestPlanetExplorer.java RENAME test_executeMoveForwardCommands()=>void test_executeTwMoveForwardCommands() METHOD
+RefactoringAction 1477057025677 TestPlanetExplorer.java RENAME test_executeTwMoveForwardCommands()=>void test_executeTwoMoveForwardCommands() METHOD
+RefactoringAction 1477057031356 TestPlanetExplorer.java RENAME test_executeTwoMoveForwardCommands()=>void test_executeTwoMoveForwardCommandsTU() METHOD
+RefactoringAction 1477057031949 TestPlanetExplorer.java RENAME test_executeTwoMoveForwardCommandsTU()=>void test_executeTwoMoveForwardCommandsT() METHOD
+RefactoringAction 1477057034867 TestPlanetExplorer.java RENAME test_executeTwoMoveForwardCommandsT()=>void test_execute() METHOD
+RefactoringAction 1477057040295 TestPlanetExplorer.java RENAME test_execute()=>void test_executeCommandS() METHOD
+RefactoringAction 1477057042198 TestPlanetExplorer.java RENAME test_executeCommandS()=>void test_executeCommandSequ() METHOD
+RefactoringAction 1477057043820 TestPlanetExplorer.java RENAME test_executeCommandSequ()=>void test_executeCommandSequence() METHOD
+RefactoringAction 1477057056301 TestPlanetExplorer.java RENAME test_executeCommandSequence()=>void test_executeCommandSequenceFFRFF() METHOD
+RefactoringAction 1477057068686 TestPlanetExplorer.java ADD String COMMAND FIELD
+RefactoringAction 1477057069339 TestPlanetExplorer.java RENAME COMMAND=>String COMMAND_F FIELD
+RefactoringAction 1477057070059 TestPlanetExplorer.java RENAME COMMAND_F=>String COMMAND_FF FIELD
+RefactoringAction 1477057071523 TestPlanetExplorer.java RENAME COMMAND_FF=>String COMMAND_FFRFF FIELD
+EditAction 1477057079844 TestPlanetExplorer.java 4757 14 47 15
