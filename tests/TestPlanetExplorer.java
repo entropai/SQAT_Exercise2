@@ -18,6 +18,7 @@ public class TestPlanetExplorer {
 	// Fixture
 	static int DEFAULT_WIDTH  = 100;
 	static int DEFAULT_HEIGHT = 100;
+	static String NO_OBSTACLES = "";
 	PlanetExplorer explorer = new PlanetExplorer(DEFAULT_WIDTH, DEFAULT_HEIGHT, NO_OBSTACLES);
 	
 	
@@ -47,6 +48,7 @@ public class TestPlanetExplorer {
 		assertEquals("Explorer heading invalid in while turning left", HEADING_STATUS_LEFT, status);
 	}
 	
+	@Test
 	public void test_executeTurnInPlaceRightCommand() {
 		String status = explorer.executeCommand(TURN_RIGHT_INPLACE);
 		assertEquals("Explorer heading invalid in while turning right", HEADING_STATUS_RIGHT, status);

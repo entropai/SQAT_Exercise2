@@ -147,3 +147,8 @@ RefactoringAction 1477051287102 TestPlanetExplorer.java ADD int DEFAULT_HEIGHT F
 EditAction 1477051287140 TestPlanetExplorer.java 1657 5 12 6
 EditAction 1477051293707 TestPlanetExplorer.java 1659 5 12 6
 EditAction 1477051302821 TestPlanetExplorer.java 1626 5 12 6
+CompilationAction 1477051304146 TestPlanetExplorer.java
+CompilationAction 1477051306130 TestPlanetExplorer.java
+UnitTestCaseAction 1477051316311 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477051316312 TestPlanetExplorer.java FAIL
+EditAction 1477051325365 TestPlanetExplorer.java 1667 5 12 6
