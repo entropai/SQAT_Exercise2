@@ -145,3 +145,4 @@ RefactoringAction 1477051285087 TestPlanetExplorer.java REMOVE DEFAULT_HEIGHT FI
 RefactoringAction 1477051287100 TestPlanetExplorer.java ADD int DEFAULT_WIDTH FIELD
 RefactoringAction 1477051287102 TestPlanetExplorer.java ADD int DEFAULT_HEIGHT FIELD
 EditAction 1477051287140 TestPlanetExplorer.java 1657 5 12 6
+EditAction 1477051293707 TestPlanetExplorer.java 1659 5 12 6

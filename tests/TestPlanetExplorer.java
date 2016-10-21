@@ -17,9 +17,10 @@ public class TestPlanetExplorer {
 	static String TURN_RIGHT_INPLACE = "r";
 	
 	// Fixture
-	PlanetExplorer explorer = new PlanetExplorer(DEFAULT_WIDTH, DEFAULT_HEIGHT, NO_OBSTACLES);
 	static int DEFAULT_WIDTH  = 100;
 	static int DEFAULT_HEIGHT = 100;
+	PlanetExplorer explorer = new PlanetExplorer(DEFAULT_WIDTH, DEFAULT_HEIGHT, NO_OBSTACLES);
+	
 	
 	@Test
 	public void test_createNewPlanetWithoutObstacles() {		
