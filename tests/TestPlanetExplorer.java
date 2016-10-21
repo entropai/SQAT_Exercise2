@@ -8,12 +8,18 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_createNewPlanetWithoutObstacles() {
 		
-		PlanetExplorer explorer = new PlanetExplorer(100, 100, "");
+		int width = 100;
+		int height = 100;
+		PlanetExplorer explorer = new PlanetExplorer(width, height, "");
+		int x = explorer.getPlanetWidth();
+		int y = explorer.getPlanetHeight();
+		assertEquals("Created planet width is in correct ", width, x);
+		assertEquals("Created planet height is in correct ", height, x);
 		
 	}
 	
 	@Test
 	public void test_executeCommand() {
-		fail("Not yet implemented");
+		
 	}
 }
