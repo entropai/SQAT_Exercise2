@@ -95,7 +95,7 @@ public class TestPlanetExplorer {
 		explorer.setPosition(7,6);
 		explorer.setHeading(PlanetExplorer.heading.SOUTH);
 		String status = explorer.executeCommand(MOVE_BACKWARDS);		
-		assertEquals("Explorer position invalid after moving forward", "(8,6,E)" , status);
+		assertEquals("Explorer position invalid after moving forward", "(7,7,S)" , status);
 	}
 	
 	

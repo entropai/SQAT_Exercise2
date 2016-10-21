@@ -392,3 +392,4 @@ RefactoringAction 1477054644292 TestPlanetExplorer.java RENAME test_executeMoveB
 RefactoringAction 1477054645103 TestPlanetExplorer.java RENAME test_executeMoveBackwardsFacingSouthommand()=>void test_executeMoveBackwardsFacingSouthCommand() METHOD
 EditAction 1477054665098 TestPlanetExplorer.java 3481 10 32 11
 EditAction 1477054672432 TestPlanetExplorer.java 3482 10 32 11
+EditAction 1477054713674 TestPlanetExplorer.java 3482 10 32 11
