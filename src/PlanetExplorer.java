@@ -2,7 +2,7 @@ import java.text.ParsePosition;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID: 152
-// Finish time:
+// Finish time: 16:45
 
 public class PlanetExplorer {
 	
