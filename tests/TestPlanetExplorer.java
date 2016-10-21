@@ -66,7 +66,7 @@ public class TestPlanetExplorer {
 		status = explorer.executeCommand(COMMAND_TURN_LEFT_INPLACE);
 		status = explorer.executeCommand(COMMAND_TURN_LEFT_INPLACE);
 		
-		assertEquals("Wrong heading after turning three times", "(1,1,E)", status)
+		assertEquals("Wrong heading after turning three times", "(1,1,E)", status);
 	}
 	
 	@Test
