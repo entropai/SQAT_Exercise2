@@ -48,13 +48,13 @@ public class PlanetExplorer {
 		switch(command) 
 		{
 			case "": return parseStatus();
-			case "l": {
-				turnLeft();
-			}
-			case "r": return parseStatus();
-			case "f": return parseStatus();
-			case "b": return parseStatus();
+			case "l": turnLeft(); break;			
+			case "r": turnRight(); break;
+			case "f": moveForward(); break;
+			case "b": moveBackwards(); break;
 		}
+		
+		return parseStatus();
 		
 		if(command.equals("")) {
 			return parseStatus();
