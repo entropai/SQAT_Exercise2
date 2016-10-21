@@ -110,10 +110,10 @@ public class PlanetExplorer {
 		
 	private void turnRight() {
 		switch(currentHeading) {
-			case NORTH: setHeading(heading.WEST); break;
-			case SOUTH: setHeading(heading.EAST); break;
-			case EAST: setHeading(heading.NORTH); break;
-			case WEST: setHeading(heading.SOUTH); break;
+			case NORTH: setHeading(heading.EAST); break;
+			case SOUTH: setHeading(heading.WEST); break;
+			case EAST: setHeading(heading.SOUTH); break;
+			case WEST: setHeading(heading.NORTH); break;
 		}
 	}
 	
