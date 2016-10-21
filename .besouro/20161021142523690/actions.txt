@@ -549,3 +549,10 @@ EditAction 1477056472039 TestPlanetExplorer.java 4493 13 45 14
 UnitTestCaseAction 1477056475646 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1477056475647 TestPlanetExplorer.java FAIL
 EditAction 1477056482471 TestPlanetExplorer.java 4492 13 43 13
+CompilationAction 1477056484431 TestPlanetExplorer.java
+CompilationAction 1477056485951 TestPlanetExplorer.java
+UnitTestCaseAction 1477056488272 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477056488273 TestPlanetExplorer.java FAIL
+RefactoringAction 1477056604038 PlanetExplorer.java ADD String parseStatus()/2 METHOD
+RefactoringAction 1477056654500 PlanetExplorer.java REMOVE parseStatus()/2 METHOD
+EditAction 1477056659968 PlanetExplorer.java 3403 14 18 0
