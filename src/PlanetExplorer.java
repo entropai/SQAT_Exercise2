@@ -117,7 +117,12 @@ public class PlanetExplorer {
 	}
 	
 	private void moveBackwards() {
-		posX -= 1;
+		switch(currentHeading) {
+		case NORTH: posY-=1; break;
+		case SOUTH: posY+=1; break;
+		case EAST: posX-=1; break;
+		case WEST: posY+=1; break;
+	}
 	}	
 	
 	private String headingToString(heading to) {
