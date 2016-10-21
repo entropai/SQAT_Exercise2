@@ -590,3 +590,16 @@ RefactoringAction 1477057070059 TestPlanetExplorer.java RENAME COMMAND_F=>String
 RefactoringAction 1477057071523 TestPlanetExplorer.java RENAME COMMAND_FF=>String COMMAND_FFRFF FIELD
 EditAction 1477057079844 TestPlanetExplorer.java 4757 14 47 15
 EditAction 1477057120069 TestPlanetExplorer.java 4738 14 47 15
+UnitTestCaseAction 1477057124038 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477057124039 TestPlanetExplorer.java OK
+RefactoringAction 1477057169173 TestPlanetExplorer.java ADD void test_ FIELD
+RefactoringAction 1477057172690 TestPlanetExplorer.java RENAME test_=>void test_execute FIELD
+RefactoringAction 1477057174426 TestPlanetExplorer.java RENAME test_execute=>void test_executeCommand FIELD
+RefactoringAction 1477057176188 TestPlanetExplorer.java RENAME test_executeCommand=>void test_executeCommandAtEd FIELD
+RefactoringAction 1477057177093 TestPlanetExplorer.java RENAME test_executeCommandAtEd=>void test_executeCommandAtEdge FIELD
+RefactoringAction 1477057180962 TestPlanetExplorer.java RENAME test_executeCommandAtEdge=>void test_executeCommandAtEdgeShouldW FIELD
+RefactoringAction 1477057182219 TestPlanetExplorer.java RENAME test_executeCommandAtEdgeShouldW=>void test_executeCommandAtEdgeShouldWrap FIELD
+RefactoringAction 1477057182223 TestPlanetExplorer.java RENAME test_executeCommandAtEdgeShouldW=>void test_executeCommandAtEdgeShouldWrap FIELD
+RefactoringAction 1477057191601 TestPlanetExplorer.java RENAME test_executeCommandAtEdgeShouldWrap=>void test_executeCommandAtSouthEdgeShouldWrap FIELD
+RefactoringAction 1477057195483 TestPlanetExplorer.java RENAME test_executeCommandAtSouthEdgeShouldWrap=>void test_executeCommandAtSouthEdgeShouldWrap() METHOD
+EditAction 1477057313375 TestPlanetExplorer.java 4968 15 50 15
