@@ -27,7 +27,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_createNewPlanetWithoutObstacles() {		
 		int map[][] = explorer.getMap();
-		assertNotEquals(null, map);
+		assertNotEquals("Failed to create map ", null, map);
 	}
 	
 	@Test
@@ -116,5 +116,7 @@ public class TestPlanetExplorer {
 		String status = explorer.executeCommand(COMMAND_MOVE_BACKWARDS);		
 		assertEquals("Explorer position invalid after moving forward", "(7,7,S)" , status);
 	}	
+	
+	
 		
 }

@@ -54,31 +54,7 @@ public class PlanetExplorer {
 			case "b": moveBackwards(); break;
 		}
 		
-		return parseStatus();
-		
-		if(command.equals("")) {
-			return parseStatus();
-		}
-		
-		if(command.equals("l"))	{
-			turnLeft();
-			return parseStatus();
-		}
-		
-		if(command.equals("r")) {
-			turnRight();
-			return parseStatus();
-		}
-		
-		if(command.equals("f")) {
-			moveForward();
-			return parseStatus();
-		}
-		
-		if(command.equals("b")) {
-			moveBackwards();
-			return parseStatus();
-		}
+		return parseStatus();	
 		
 	}	
 	
