@@ -57,6 +57,14 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
+	public void test_executeTurnLeftMultipleTimesInitiallyFacingNorth() {
+		String status = explorer.executeCommand(COMMAND_TURN_LEFT_INPLACE);
+		status = explorer.executeCommand(COMMAND_TURN_LEFT_INPLACE);
+		status = explorer.executeCommand(COMMAND_TURN_LEFT_INPLACE);
+		
+	}
+	
+	@Test
 	public void test_setExplorerPositionAndHeading() {
 		 explorer.setPosition(5,4);
 		 explorer.setHeading(PlanetExplorer.heading.EAST);

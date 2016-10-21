@@ -474,3 +474,7 @@ RefactoringAction 1477055222304 TestPlanetExplorer.java RENAME MOVE_BACKWARDS=>S
 RefactoringAction 1477055223047 TestPlanetExplorer.java RENAME COMMAND_MOVE_BACKWARDS=>String MOVE_BACKWARDS FIELD
 RefactoringAction 1477055223238 TestPlanetExplorer.java RENAME MOVE_BACKWARDS=>String COMMAND_MOVE_BACKWARDS FIELD
 EditAction 1477055223241 TestPlanetExplorer.java 3559 10 32 11
+UnitTestCaseAction 1477055232929 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477055232930 TestPlanetExplorer.java OK
+RefactoringAction 1477055275012 TestPlanetExplorer.java ADD void test_executeTurnLeftMultipleTimesInitiallyFacingNorth() METHOD
+EditAction 1477055323394 TestPlanetExplorer.java 3841 11 35 11
