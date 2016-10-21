@@ -13,10 +13,10 @@ public class TestPlanetExplorer {
 	
 	
 	@Test
-	public void test_createNewPlanetWithoutObstacles() {		
-		/*PlanetExplorer explorer = new PlanetExplorer(width, height "");
+	public void test_createNewPlanetWithoutObstacles() {	
+		
 		int map[][] = explorer.getMap();
-		assertNotEquals(null, map);*/
+		assertNotEquals(null, map);
 	}
 	
 	@Test
