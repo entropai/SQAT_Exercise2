@@ -299,3 +299,15 @@ UnitTestSessionAction 1477053381503 TestPlanetExplorer.java OK
 RefactoringAction 1477053476744 TestPlanetExplorer.java ADD void test_executeMoveForwardCommand() METHOD
 RefactoringAction 1477053476746 TestPlanetExplorer.java ADD void test_executeBackwardsCommand() METHOD
 EditAction 1477053480841 TestPlanetExplorer.java 2422 8 15 7
+CompilationAction 1477053482816 TestPlanetExplorer.java
+CompilationAction 1477053616061 TestPlanetExplorer.java
+CompilationAction 1477053616135 TestPlanetExplorer.java
+RefactoringAction 1477053692214 TestPlanetExplorer.java REMOVE test_executeBackwardsCommand() METHOD
+CompilationAction 1477053694805 TestPlanetExplorer.java
+CompilationAction 1477053694945 TestPlanetExplorer.java
+CompilationAction 1477053694946 TestPlanetExplorer.java
+UnitTestCaseAction 1477053699589 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477053699590 TestPlanetExplorer.java FAIL
+RefactoringAction 1477053712712 PlanetExplorer.java RENAME setPosition(String)=>void setPosition(int) METHOD
+RefactoringAction 1477053716586 PlanetExplorer.java RENAME setPosition(int)=>void setPosition(int, int) METHOD
+EditAction 1477053732567 PlanetExplorer.java 2454 11 16 0

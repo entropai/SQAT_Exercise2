@@ -61,8 +61,9 @@ public class PlanetExplorer {
 		return null;
 	}	
 	
-	public void setPosition(String newStatus) {
-		position = newStatus;
+	public void setPosition(int nx, int ny) {
+		posX = nx;
+		posY = ny;
 	}
 	
 	public String getPosition() {
