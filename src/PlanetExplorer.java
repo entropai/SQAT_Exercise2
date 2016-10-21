@@ -109,10 +109,10 @@ public class PlanetExplorer {
 	
 	private void moveForward() {
 		switch(currentHeading) {
-			case NORTH: posX+=1;
-			case SOUTH: posX-=1;
-			case EAST: return "E";
-			case WEST: return "W";
+			case NORTH: posY+=1; break;
+			case SOUTH: posY-=1; break;
+			case EAST: posX+=1; break;
+			case WEST: posY-=1; break;
 		}
 	}
 	
