@@ -8,16 +8,16 @@ public class PlanetExplorer {
 	private int[][] map;
 	private String position;	
 	private int posX = 0;
-	private int posY = 0;
-	private enum heading {
+	private int posY = 0;	
+	
+	private heading direction = heading.NORTH;
+	
+	public enum heading {
 		NORTH,
 		EAST,
 		WEST,
 		SOUTH		
 	} 
-	
-	private heading direction = heading.NORTH;
-	
 	
 	
 	public PlanetExplorer(int x, int y, String obstacles){
@@ -44,7 +44,9 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		if(command.equals(""))
-			return "(0,0,N)";
+		{
+			return parseStatus();
+		}
 		
 		if(command.equals("l"))
 			return "(0,0,W)";
