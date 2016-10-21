@@ -129,3 +129,9 @@ RefactoringAction 1477051100588 TestPlanetExplorer.java RENAME TURN_LEFT_INPLACE
 EditAction 1477051100961 TestPlanetExplorer.java 1469 5 12 6
 EditAction 1477051106876 TestPlanetExplorer.java 1469 5 12 6
 EditAction 1477051136109 TestPlanetExplorer.java 1494 5 12 6
+RefactoringAction 1477051159691 TestPlanetExplorer.java ADD String LANDING_STATUS/2 FIELD
+RefactoringAction 1477051164238 TestPlanetExplorer.java RENAME LANDING_STATUS/2=>String HEADING_STATUS FIELD
+RefactoringAction 1477051169763 TestPlanetExplorer.java RENAME HEADING_STATUS=>String HEADING_STATUS_LEFT FIELD
+RefactoringAction 1477051194877 TestPlanetExplorer.java ADD String HEADING_STATUS_LEFT/2 FIELD
+RefactoringAction 1477051197889 TestPlanetExplorer.java RENAME HEADING_STATUS_LEFT/2=>String HEADING_STATUS_RIGHT FIELD
+EditAction 1477051200170 TestPlanetExplorer.java 1591 5 12 6

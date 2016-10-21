@@ -10,6 +10,9 @@ public class TestPlanetExplorer {
 	static String NO_OBSTACLES = "";
 	static String NO_COMMAND = "";
 	static String LANDING_STATUS = "(0,0,N)";
+	static String HEADING_STATUS_LEFT ="(0,0,W)";
+	static String HEADING_STATUS_RIGHT ="(0,0,E)";
+	
 	static String TURN_LEFT_INPLACE = "l";
 	static String TURN_RIGHT_INPLACE = "r";
 	PlanetExplorer explorer = new PlanetExplorer(DEFAULT_WIDTH, DEFAULT_HEIGHT, NO_OBSTACLES);
