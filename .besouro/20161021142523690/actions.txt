@@ -195,3 +195,6 @@ RefactoringAction 1477051920939 TestPlanetExplorer.java RENAME test_=>void test_
 RefactoringAction 1477052000513 TestPlanetExplorer.java RENAME test_SetExplorerPosition()=>void test_SetExplorerPositionAndHeading() METHOD
 RefactoringAction 1477052026599 TestPlanetExplorer.java RENAME test_SetExplorerPositionAndHeading()=>void test_setExplorerPositionAndHeading() METHOD
 EditAction 1477052084040 TestPlanetExplorer.java 2359 6 14 6
+CompilationAction 1477052085888 TestPlanetExplorer.java
+CompilationAction 1477052085889 TestPlanetExplorer.java
+EditAction 1477052135998 TestPlanetExplorer.java 2424 6 15 7

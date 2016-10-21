@@ -60,6 +60,7 @@ public class TestPlanetExplorer {
 	public void test_setExplorerPositionAndHeading() {
 		 explorer.setStatus("(5,4,E)");
 		 String status = explorer.getStatus();
+		 assertEquals("Explorer position invalid", "(5,4,E)", status);
 	}
 	
 	
