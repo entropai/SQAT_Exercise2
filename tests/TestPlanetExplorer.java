@@ -16,6 +16,7 @@ public class TestPlanetExplorer {
 	static String COMMAND_TURN_RIGHT_INPLACE = "r";	
 	static String COMMAND_MOVE_FORWARD = "f";
 	static String COMMAND_MOVE_BACKWARDS = "b";
+	static String COMMAND_MOVE_FORWARD_3_TIMES = "fff";
 	
 	// Fixture
 	static int DEFAULT_WIDTH  = 100;
@@ -117,6 +118,10 @@ public class TestPlanetExplorer {
 		assertEquals("Explorer position invalid after moving forward", "(7,7,S)" , status);
 	}	
 	
+	@Test 
+	public void test_executeMultipleMoveForwardCommands() {
+		status = explorer.executeCommand()
+	}
 	
 		
 }

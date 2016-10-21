@@ -526,3 +526,12 @@ CompilationAction 1477056147312 PlanetExplorer.java
 UnitTestCaseAction 1477056149343 TestPlanetExplorer.java OK
 UnitTestSessionAction 1477056149344 TestPlanetExplorer.java OK
 EditAction 1477056224300 TestPlanetExplorer.java 4214 12 43 13
+RefactoringAction 1477056283925 TestPlanetExplorer.java ADD void test_executeMultipleMoveFw FIELD
+RefactoringAction 1477056292093 TestPlanetExplorer.java RENAME test_executeMultipleMoveFw=>void test_executeMultipleMoveForwardCommands() METHOD
+RefactoringAction 1477056358944 TestPlanetExplorer.java ADD String COMMAND_MOVE FIELD
+RefactoringAction 1477056362828 TestPlanetExplorer.java RENAME COMMAND_MOVE=>String COMMAND_MOVE_FORWARD3 FIELD
+RefactoringAction 1477056364543 TestPlanetExplorer.java RENAME COMMAND_MOVE_FORWARD3=>String COMMAND_MOVE_FORWARD/2 FIELD
+RefactoringAction 1477056365558 TestPlanetExplorer.java RENAME COMMAND_MOVE_FORWARD/2=>String COMMAND_MOVE_FORWARDT FIELD
+RefactoringAction 1477056369067 TestPlanetExplorer.java RENAME COMMAND_MOVE_FORWARDT=>String COMMAND_MOVE_FORWARD3TIMES FIELD
+RefactoringAction 1477056371589 TestPlanetExplorer.java RENAME COMMAND_MOVE_FORWARD3TIMES=>String COMMAND_MOVE_FORWARD_3_TIMES FIELD
+EditAction 1477056374587 TestPlanetExplorer.java 4372 13 43 13
