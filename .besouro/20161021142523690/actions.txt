@@ -270,3 +270,10 @@ CompilationAction 1477052887209 PlanetExplorer.java
 RefactoringAction 1477052945690 PlanetExplorer.java RENAME headingToString(heading)=>String headingToString() METHOD
 RefactoringAction 1477052948708 PlanetExplorer.java RENAME headingToString()=>String headingToString(heading) METHOD
 EditAction 1477052979547 PlanetExplorer.java 2182 9 11 0
+CompilationAction 1477052981484 PlanetExplorer.java
+CompilationAction 1477052981485 PlanetExplorer.java
+CompilationAction 1477053101978 PlanetExplorer.java
+CompilationAction 1477053101980 PlanetExplorer.java
+UnitTestCaseAction 1477053155920 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477053155921 TestPlanetExplorer.java OK
+EditAction 1477053187940 PlanetExplorer.java 2280 9 13 0

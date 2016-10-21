@@ -49,10 +49,10 @@ public class PlanetExplorer {
 		}
 		
 		if(command.equals("l"))
-			return "(0,0,W)";
+			return parseStatus();
 		
 		if(command.equals("r"))
-			return "(0,0,E)";		
+			return parseStatus();		
 		
 		return null;
 	}
@@ -83,7 +83,10 @@ public class PlanetExplorer {
 	
 	private String headingToString(heading to) {
 		switch(to) {
-		case heading.
+			case NORTH: return "N";
+			case SOUTH: return "S";
+			case EAST: return "E";
+			case WEST: return "W";
 		}		
 		return null;
 	}
