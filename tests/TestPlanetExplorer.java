@@ -91,6 +91,8 @@ public class TestPlanetExplorer {
 	}
 	
 	
+	
+	
 	/*
 	@Test
 	public void test_executeBackwardsCommand() {
