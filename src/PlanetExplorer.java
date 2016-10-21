@@ -16,7 +16,7 @@ public class PlanetExplorer {
 		SOUTH		
 	} 
 	
-	private heading direction = headingsNORTH;
+	private heading direction = heading.NORTH;
 	
 	
 	
