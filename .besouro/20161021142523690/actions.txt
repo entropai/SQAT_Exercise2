@@ -137,3 +137,6 @@ RefactoringAction 1477051197889 TestPlanetExplorer.java RENAME HEADING_STATUS_LE
 EditAction 1477051200170 TestPlanetExplorer.java 1591 5 12 6
 EditAction 1477051230942 TestPlanetExplorer.java 1602 5 12 6
 EditAction 1477051247715 TestPlanetExplorer.java 1617 5 12 6
+RefactoringAction 1477051273555 TestPlanetExplorer.java REMOVE NO_OBSTACLES FIELD
+RefactoringAction 1477051273556 TestPlanetExplorer.java REMOVE NO_COMMAND FIELD
+EditAction 1477051275605 TestPlanetExplorer.java 1649 5 12 6
