@@ -12,3 +12,7 @@ CompilationAction 1477049793205 TestPlanetExplorer.java
 UnitTestCaseAction 1477049804653 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1477049804655 TestPlanetExplorer.java FAIL
 EditAction 1477049816339 TestPlanetExplorer.java 533 2 7 2
+CompilationAction 1477049818407 TestPlanetExplorer.java
+CompilationAction 1477049818408 TestPlanetExplorer.java
+RefactoringAction 1477049844327 PlanetExplorer.java ADD char FIELD
+EditAction 1477049845858 PlanetExplorer.java 1301 2 1 0
