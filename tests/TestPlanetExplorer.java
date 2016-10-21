@@ -22,8 +22,8 @@ public class TestPlanetExplorer {
 	public void test_createNewPlanetSizeMatchesWithoutObstacles() {	
 		int x = explorer.getPlanetWidht();
 		int y = explorer.getPlanetHeight();
-		assertEquals("Created planet width is in correct ", DEFAULT_WIDTH, x);
-		assertEquals("Created planet height is in correct ", DEFAULT_HEIGHT, y);		
+		assertEquals("Created planet width is incorrect ", DEFAULT_WIDTH, x);
+		assertEquals("Created planet height is incorrect ", DEFAULT_HEIGHT, y);		
 	}	
 		
 	@Test
