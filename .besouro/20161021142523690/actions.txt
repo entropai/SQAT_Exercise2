@@ -339,3 +339,6 @@ CompilationAction 1477054058639 PlanetExplorer.java
 CompilationAction 1477054058940 PlanetExplorer.java
 RefactoringAction 1477054071627 PlanetExplorer.java ADD void moveForward() METHOD
 EditAction 1477054126265 PlanetExplorer.java 2701 13 19 0
+UnitTestCaseAction 1477054129039 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477054129040 TestPlanetExplorer.java OK
+EditAction 1477054143381 PlanetExplorer.java 2702 13 19 0
