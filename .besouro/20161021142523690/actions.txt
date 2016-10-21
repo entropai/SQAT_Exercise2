@@ -381,3 +381,13 @@ CompilationAction 1477054545932 PlanetExplorer.java
 CompilationAction 1477054615536 PlanetExplorer.java
 CompilationAction 1477054615747 PlanetExplorer.java
 EditAction 1477054620004 PlanetExplorer.java 2965 14 21 0
+UnitTestCaseAction 1477054622615 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477054622616 TestPlanetExplorer.java OK
+RefactoringAction 1477054633262 TestPlanetExplorer.java ADD void test_executeMoveForwardFacingEastCommand()/2 METHOD
+RefactoringAction 1477054637695 TestPlanetExplorer.java RENAME test_executeMoveForwardFacingEastCommand()/2=>void test_executeMoveBackwFacingEastCommand() METHOD
+RefactoringAction 1477054638724 TestPlanetExplorer.java RENAME test_executeMoveBackwFacingEastCommand()=>void test_executeMoveBackwardsFacingEastCommand()/2 METHOD
+RefactoringAction 1477054640923 TestPlanetExplorer.java RENAME test_executeMoveBackwardsFacingEastCommand()/2=>void test_executeMoveBackwardsFacingommand() METHOD
+RefactoringAction 1477054642561 TestPlanetExplorer.java RENAME test_executeMoveBackwardsFacingommand()=>void test_executeMoveBackwardsFacingWommand() METHOD
+RefactoringAction 1477054644292 TestPlanetExplorer.java RENAME test_executeMoveBackwardsFacingWommand()=>void test_executeMoveBackwardsFacingSouthommand() METHOD
+RefactoringAction 1477054645103 TestPlanetExplorer.java RENAME test_executeMoveBackwardsFacingSouthommand()=>void test_executeMoveBackwardsFacingSouthCommand() METHOD
+EditAction 1477054665098 TestPlanetExplorer.java 3481 10 32 11
