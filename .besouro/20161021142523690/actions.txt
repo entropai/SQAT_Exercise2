@@ -1,3 +1,5 @@
 FileOpenedAction 1477049124038 TestPlanetExplorer.java 174 1 1 0
 FileOpenedAction 1477049138506 PlanetExplorer.java 1270 2 1 0
 EditAction 1477049556116 PlanetExplorer.java 1277 2 1 0
+RefactoringAction 1477049581618 TestPlanetExplorer.java ADD void test_createNewPlanet() METHOD
+EditAction 1477049623712 TestPlanetExplorer.java 310 2 2 0
