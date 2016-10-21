@@ -4,11 +4,8 @@ import org.junit.Test;
 
 public class TestPlanetExplorer {
 
-	
-	static int DEFAULT_WIDTH  = 100;
-	static int DEFAULT_HEIGHT = 100;
-	
-	
+		
+	// Headings
 	static String LANDING_STATUS = "(0,0,N)";
 	static String HEADING_STATUS_LEFT ="(0,0,W)";
 	static String HEADING_STATUS_RIGHT ="(0,0,E)";	
@@ -21,7 +18,8 @@ public class TestPlanetExplorer {
 	
 	// Fixture
 	PlanetExplorer explorer = new PlanetExplorer(DEFAULT_WIDTH, DEFAULT_HEIGHT, NO_OBSTACLES);
-	
+	static int DEFAULT_WIDTH  = 100;
+	static int DEFAULT_HEIGHT = 100;
 	
 	@Test
 	public void test_createNewPlanetWithoutObstacles() {		

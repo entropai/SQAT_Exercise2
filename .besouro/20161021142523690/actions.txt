@@ -140,3 +140,8 @@ EditAction 1477051247715 TestPlanetExplorer.java 1617 5 12 6
 RefactoringAction 1477051273555 TestPlanetExplorer.java REMOVE NO_OBSTACLES FIELD
 RefactoringAction 1477051273556 TestPlanetExplorer.java REMOVE NO_COMMAND FIELD
 EditAction 1477051275605 TestPlanetExplorer.java 1649 5 12 6
+RefactoringAction 1477051285085 TestPlanetExplorer.java REMOVE DEFAULT_WIDTH FIELD
+RefactoringAction 1477051285087 TestPlanetExplorer.java REMOVE DEFAULT_HEIGHT FIELD
+RefactoringAction 1477051287100 TestPlanetExplorer.java ADD int DEFAULT_WIDTH FIELD
+RefactoringAction 1477051287102 TestPlanetExplorer.java ADD int DEFAULT_HEIGHT FIELD
+EditAction 1477051287140 TestPlanetExplorer.java 1657 5 12 6
