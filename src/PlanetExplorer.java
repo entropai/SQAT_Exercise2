@@ -48,8 +48,7 @@ public class PlanetExplorer {
 			return parseStatus();
 		}
 		
-		if(command.equals("l"))
-		{
+		if(command.equals("l"))	{
 			turnLeft();
 			return parseStatus();
 		}
@@ -103,6 +102,11 @@ public class PlanetExplorer {
 	private void turnRight() {
 		currentHeading = heading.EAST;
 	}
+	
+	private void moveForward() {
+		posY += 1;		
+	}
+	
 	
 	private String headingToString(heading to) {
 		switch(to) {
