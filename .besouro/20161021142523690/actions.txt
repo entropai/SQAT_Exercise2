@@ -478,3 +478,14 @@ UnitTestCaseAction 1477055232929 TestPlanetExplorer.java OK
 UnitTestSessionAction 1477055232930 TestPlanetExplorer.java OK
 RefactoringAction 1477055275012 TestPlanetExplorer.java ADD void test_executeTurnLeftMultipleTimesInitiallyFacingNorth() METHOD
 EditAction 1477055323394 TestPlanetExplorer.java 3841 11 35 11
+RefactoringAction 1477055352119 TestPlanetExplorer.java RENAME test_executeTurnLeftMultipleTimesInitiallyFacingNorth()=>void test_executeTurnLeftTimesInitiallyFacingNorth() METHOD
+CompilationAction 1477055354200 TestPlanetExplorer.java
+CompilationAction 1477055354201 TestPlanetExplorer.java
+RefactoringAction 1477055402095 TestPlanetExplorer.java ADD import PlanetExplorer.heading IMPORT
+CompilationAction 1477055415278 TestPlanetExplorer.java
+CompilationAction 1477055415280 TestPlanetExplorer.java
+CompilationAction 1477055415478 TestPlanetExplorer.java
+CompilationAction 1477055415479 TestPlanetExplorer.java
+CompilationAction 1477055415480 TestPlanetExplorer.java
+CompilationAction 1477055415481 TestPlanetExplorer.java
+EditAction 1477055458903 TestPlanetExplorer.java 4030 11 32 11
