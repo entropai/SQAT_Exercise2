@@ -49,6 +49,7 @@ public class PlanetExplorer {
 		
 		if(command.equals("l"))
 		{
+			turnLeft();
 			return parseStatus();
 		}
 		
