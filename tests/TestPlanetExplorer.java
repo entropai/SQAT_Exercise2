@@ -34,12 +34,12 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_executeTurnLeftCommand() {
+	public void test_executeTurnInPlaceLeftCommand() {
 		String status = explorer.executeCommand(NO_COMMAND);
 		assertEquals("Explorer status invalid in landing", LANDING_STATUS, status);
 	}
 	
-	public void test_executeTurnRightCommand() {
+	public void test_executeTurnInPlaceRightCommand() {
 		String status = explorer.executeCommand(NO_COMMAND);
 		assertEquals("Explorer status invalid in landing", LANDING_STATUS, status);
 	}
