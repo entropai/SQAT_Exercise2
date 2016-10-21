@@ -120,3 +120,10 @@ RefactoringAction 1477051028363 TestPlanetExplorer.java ADD void test_executeTur
 EditAction 1477051032162 TestPlanetExplorer.java 1374 5 12 6
 RefactoringAction 1477051044921 TestPlanetExplorer.java RENAME test_executeTurnLeftCommand()=>void test_executeTurnInPlaceLeftCommand() METHOD
 EditAction 1477051048787 TestPlanetExplorer.java 1388 5 12 6
+RefactoringAction 1477051068944 TestPlanetExplorer.java ADD String TURN_LEFT FIELD
+RefactoringAction 1477051070460 TestPlanetExplorer.java RENAME TURN_LEFT=>String TUR FIELD
+RefactoringAction 1477051071488 TestPlanetExplorer.java RENAME TUR=>String TURN FIELD
+RefactoringAction 1477051075502 TestPlanetExplorer.java RENAME TURN=>String TURN_LEFT_INPLACE FIELD
+RefactoringAction 1477051096573 TestPlanetExplorer.java ADD String TURN_LEFT_INPLACE/2 FIELD
+RefactoringAction 1477051100588 TestPlanetExplorer.java RENAME TURN_LEFT_INPLACE/2=>String TURN_RIGHT_INPLACE FIELD
+EditAction 1477051100961 TestPlanetExplorer.java 1469 5 12 6
