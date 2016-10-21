@@ -9,6 +9,7 @@ public class TestPlanetExplorer {
 	static int DEFAULT_HEIGHT = 100;
 	static String NO_OBSTACLES = "";
 	static String NO_COMMAND = "";
+	static String LANDING_STATUS = "(0,0,N)";
 	PlanetExplorer explorer = new PlanetExplorer(DEFAULT_WIDTH, DEFAULT_HEIGHT, NO_OBSTACLES);
 	
 	
@@ -28,6 +29,7 @@ public class TestPlanetExplorer {
 		
 	@Test
 	public void test_executeCommand() {
-		explorer.executeCommand()
+		String status = explorer.executeCommand(NO_COMMAND);
+		assertEquals(LANDING_STATUS, status);
 	}
 }

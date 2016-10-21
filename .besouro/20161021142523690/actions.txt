@@ -99,3 +99,9 @@ RefactoringAction 1477050633769 TestPlanetExplorer.java REMOVE test_createNewPla
 EditAction 1477050635750 TestPlanetExplorer.java 786 3 6 3
 EditAction 1477050666699 TestPlanetExplorer.java 784 3 6 3
 EditAction 1477050743031 TestPlanetExplorer.java 839 3 6 3
+CompilationAction 1477050744807 TestPlanetExplorer.java
+CompilationAction 1477050744808 TestPlanetExplorer.java
+RefactoringAction 1477050766971 TestPlanetExplorer.java ADD String LANDING_STATUS FIELD
+CompilationAction 1477050786757 TestPlanetExplorer.java
+CompilationAction 1477050786759 TestPlanetExplorer.java
+EditAction 1477050821044 TestPlanetExplorer.java 949 3 8 4
