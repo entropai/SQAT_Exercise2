@@ -13,16 +13,13 @@ public class TestPlanetExplorer {
 	
 	
 	@Test
-	public void test_createNewPlanetWithoutObstacles() {	
-		
+	public void test_createNewPlanetWithoutObstacles() {		
 		int map[][] = explorer.getMap();
 		assertNotEquals(null, map);
 	}
 	
 	@Test
-	public void test_createNewPlanetSizeMatchesWithoutObstacles() {		
-		
-		PlanetExplorer explorer = new PlanetExplorer(DEFAULT_WIDTH, DEFAULT_HEIGHT, "");
+	public void test_createNewPlanetSizeMatchesWithoutObstacles() {	
 		int x = explorer.getPlanetWidht();
 		int y = explorer.getPlanetHeight();
 		assertEquals("Created planet width is in correct ", DEFAULT_WIDTH, x);

@@ -83,3 +83,7 @@ RefactoringAction 1477050473551 TestPlanetExplorer.java RENAME test_createNewPla
 RefactoringAction 1477050479065 TestPlanetExplorer.java RENAME test_createNewPlanetSizeObstacles()=>void test_createNewPlanetSizeMatchesObstacles() METHOD
 EditAction 1477050480916 TestPlanetExplorer.java 943 3 5 2
 EditAction 1477050495650 TestPlanetExplorer.java 875 3 7 3
+CompilationAction 1477050497270 TestPlanetExplorer.java
+CompilationAction 1477050503424 TestPlanetExplorer.java
+CompilationAction 1477050503591 TestPlanetExplorer.java
+EditAction 1477050511742 PlanetExplorer.java 1450 4 4 0

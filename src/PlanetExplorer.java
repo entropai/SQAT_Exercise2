@@ -34,6 +34,8 @@ public class PlanetExplorer {
 		return null;
 	}
 	
+	
+	
 	public int getPlanetWidht() {
 		return map.length;		
 	}
