@@ -107,3 +107,6 @@ CompilationAction 1477050786759 TestPlanetExplorer.java
 EditAction 1477050821044 TestPlanetExplorer.java 949 3 8 4
 RefactoringAction 1477050838675 TestPlanetExplorer.java RENAME test_executeCommand()=>void test_executeCommandWhenLanding() METHOD
 EditAction 1477050863820 TestPlanetExplorer.java 998 3 8 4
+UnitTestCaseAction 1477050871686 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477050871687 TestPlanetExplorer.java FAIL
+EditAction 1477050919761 PlanetExplorer.java 1541 5 6 0
