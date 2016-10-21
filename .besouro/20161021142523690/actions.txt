@@ -351,3 +351,10 @@ EditAction 1477054224554 TestPlanetExplorer.java 2859 8 24 9
 UnitTestCaseAction 1477054228544 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1477054228545 TestPlanetExplorer.java FAIL
 EditAction 1477054256297 PlanetExplorer.java 2750 13 20 0
+CompilationAction 1477054257797 PlanetExplorer.java
+CompilationAction 1477054271133 PlanetExplorer.java
+CompilationAction 1477054271323 PlanetExplorer.java
+RefactoringAction 1477054280635 PlanetExplorer.java ADD void moveB FIELD
+RefactoringAction 1477054281571 PlanetExplorer.java RENAME moveB=>void moveBack FIELD
+RefactoringAction 1477054284113 PlanetExplorer.java RENAME moveBack=>void moveBackwards() METHOD
+EditAction 1477054293898 PlanetExplorer.java 2828 14 21 0

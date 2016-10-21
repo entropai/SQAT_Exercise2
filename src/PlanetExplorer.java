@@ -63,9 +63,10 @@ public class PlanetExplorer {
 			return parseStatus();
 		}
 		
-		if(command.equals("b"))
+		if(command.equals("b")) {
 			moveBackwards();
-		
+			return parseStatus();
+		}
 		return null;
 	}	
 	
@@ -108,6 +109,10 @@ public class PlanetExplorer {
 	
 	private void moveForward() {
 		posY += 1;		
+	}
+	
+	private void moveBackwards() {
+		posX -= 1;
 	}
 	
 	
