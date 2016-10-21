@@ -322,3 +322,7 @@ RefactoringAction 1477053807561 PlanetExplorer.java RENAME se=>void set FIELD
 RefactoringAction 1477053810138 PlanetExplorer.java RENAME set=>void setHeading() METHOD
 RefactoringAction 1477053816178 PlanetExplorer.java RENAME setHeading()=>void setHeading(heading) METHOD
 EditAction 1477053827254 PlanetExplorer.java 2536 12 17 0
+UnitTestCaseAction 1477053830067 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477053830068 TestPlanetExplorer.java FAIL
+RefactoringAction 1477053844738 PlanetExplorer.java ADD import java.text.ParsePosition IMPORT
+EditAction 1477053859529 PlanetExplorer.java 2573 12 17 0

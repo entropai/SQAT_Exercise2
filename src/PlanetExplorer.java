@@ -1,3 +1,4 @@
+import java.text.ParsePosition;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID: 152
@@ -71,7 +72,7 @@ public class PlanetExplorer {
 	}
 	
 	public String getPosition() {
-		return position;
+		return parseStatus();
 	}
 	
 	public int[][] getMap() {
