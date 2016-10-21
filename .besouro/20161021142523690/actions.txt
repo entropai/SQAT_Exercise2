@@ -535,3 +535,14 @@ RefactoringAction 1477056365558 TestPlanetExplorer.java RENAME COMMAND_MOVE_FORW
 RefactoringAction 1477056369067 TestPlanetExplorer.java RENAME COMMAND_MOVE_FORWARDT=>String COMMAND_MOVE_FORWARD3TIMES FIELD
 RefactoringAction 1477056371589 TestPlanetExplorer.java RENAME COMMAND_MOVE_FORWARD3TIMES=>String COMMAND_MOVE_FORWARD_3_TIMES FIELD
 EditAction 1477056374587 TestPlanetExplorer.java 4372 13 43 13
+CompilationAction 1477056376311 TestPlanetExplorer.java
+CompilationAction 1477056376312 TestPlanetExplorer.java
+CompilationAction 1477056376313 TestPlanetExplorer.java
+RefactoringAction 1477056392721 TestPlanetExplorer.java RENAME test_executeMultipleMoveForwardCommands()=>void test_executeThMoveForwardCommands() METHOD
+RefactoringAction 1477056393661 TestPlanetExplorer.java RENAME test_executeThMoveForwardCommands()=>void test_executeThreeMoveForwardCommands() METHOD
+CompilationAction 1477056451781 TestPlanetExplorer.java
+CompilationAction 1477056451782 TestPlanetExplorer.java
+CompilationAction 1477056451784 TestPlanetExplorer.java
+UnitTestCaseAction 1477056455408 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477056455409 TestPlanetExplorer.java FAIL
+EditAction 1477056472039 TestPlanetExplorer.java 4493 13 45 14

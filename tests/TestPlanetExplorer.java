@@ -119,8 +119,9 @@ public class TestPlanetExplorer {
 	}	
 	
 	@Test 
-	public void test_executeMultipleMoveForwardCommands() {
-		status = explorer.executeCommand()
+	public void test_executeThreeMoveForwardCommands() {
+		String status = explorer.executeCommand(COMMAND_MOVE_FORWARD_3_TIMES);
+		assertEquals("Explorer position invalid 3 move forward commands", "(3,0,N), status");
 	}
 	
 		
