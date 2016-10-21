@@ -48,7 +48,8 @@ public class PlanetExplorer {
 		
 		
 		for(int indx = 0; indx < command.length(); indx++) {
-			parseSingleCommand(Character.toString(command.charAt(indx)));
+			String tmpC = Character.toString(command.charAt(indx)); 
+			parseSingleCommand(tmpC);
 		}
 		
 	
