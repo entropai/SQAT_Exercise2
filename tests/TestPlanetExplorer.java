@@ -8,7 +8,7 @@ public class TestPlanetExplorer {
 	static int DEFAULT_WIDTH  = 100;
 	static int DEFAULT_HEIGHT = 100;
 	static String NO_OBSTACLES = "";
-	
+	static String NO_COMMAND = "";
 	PlanetExplorer explorer = new PlanetExplorer(DEFAULT_WIDTH, DEFAULT_HEIGHT, NO_OBSTACLES);
 	
 	
@@ -28,6 +28,6 @@ public class TestPlanetExplorer {
 		
 	@Test
 	public void test_executeCommand() {
-		
+		explorer.executeCommand()
 	}
 }

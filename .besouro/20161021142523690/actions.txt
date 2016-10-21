@@ -98,3 +98,4 @@ RefactoringAction 1477050628231 TestPlanetExplorer.java ADD void test_createNewP
 RefactoringAction 1477050633769 TestPlanetExplorer.java REMOVE test_createNewPlanetSizeMatchesWithoutObstacles()/2 METHOD
 EditAction 1477050635750 TestPlanetExplorer.java 786 3 6 3
 EditAction 1477050666699 TestPlanetExplorer.java 784 3 6 3
+EditAction 1477050743031 TestPlanetExplorer.java 839 3 6 3
