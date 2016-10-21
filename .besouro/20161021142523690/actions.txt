@@ -127,3 +127,4 @@ RefactoringAction 1477051075502 TestPlanetExplorer.java RENAME TURN=>String TURN
 RefactoringAction 1477051096573 TestPlanetExplorer.java ADD String TURN_LEFT_INPLACE/2 FIELD
 RefactoringAction 1477051100588 TestPlanetExplorer.java RENAME TURN_LEFT_INPLACE/2=>String TURN_RIGHT_INPLACE FIELD
 EditAction 1477051100961 TestPlanetExplorer.java 1469 5 12 6
+EditAction 1477051106876 TestPlanetExplorer.java 1469 5 12 6
