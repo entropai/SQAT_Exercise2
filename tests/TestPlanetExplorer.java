@@ -45,15 +45,22 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_executeTurnInPlaceLeftCommand() {
+	public void test_executeTurnInPlaceLeftCommandAfterLanding() {
 		String status = explorer.executeCommand(TURN_LEFT_INPLACE);
 		assertEquals("Explorer heading invalid in while turning left", HEADING_STATUS_LEFT_AFTER_LANDING, status);
 	}
 	
 	@Test
-	public void test_executeTurnInPlaceRightCommand() {
+	public void test_executeTurnInPlaceRightCommandAfterLanding() {
 		String status = explorer.executeCommand(TURN_RIGHT_INPLACE);
 		assertEquals("Explorer heading invalid in while turning right", HEADING_STATUS_RIGHT_AFTER_LANDING, status);
 	}
+	
+	@Test
+	public void test_executeMoveForwardCommand() {
+		String status = explorer.executeCommand(TURN_RIGHT_INPLACE);
+		assertEquals("Explorer heading invalid in while turning right", HEADING_STATUS_RIGHT_AFTER_LANDING, status);
+	}
+	
 	
 }
