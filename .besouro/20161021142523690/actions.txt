@@ -87,3 +87,8 @@ CompilationAction 1477050497270 TestPlanetExplorer.java
 CompilationAction 1477050503424 TestPlanetExplorer.java
 CompilationAction 1477050503591 TestPlanetExplorer.java
 EditAction 1477050511742 PlanetExplorer.java 1450 4 4 0
+UnitTestCaseAction 1477050522428 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477050522429 TestPlanetExplorer.java FAIL
+RefactoringAction 1477050555954 PlanetExplorer.java ADD int FIELD
+RefactoringAction 1477050557471 PlanetExplorer.java RENAME get=>int METHOD
+EditAction 1477050564473 PlanetExplorer.java 1492 5 5 0
