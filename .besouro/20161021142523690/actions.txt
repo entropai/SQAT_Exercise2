@@ -560,3 +560,6 @@ RefactoringAction 1477056675342 PlanetExplorer.java ADD void parseS FIELD
 RefactoringAction 1477056677949 PlanetExplorer.java RENAME parseS=>void parseSingleCommand() METHOD
 RefactoringAction 1477056683361 PlanetExplorer.java RENAME parseSingleCommand()=>void parseSingleCommand(String) METHOD
 EditAction 1477056708390 PlanetExplorer.java 3431 15 18 0
+CompilationAction 1477056775929 PlanetExplorer.java
+RefactoringAction 1477056818349 PlanetExplorer.java RENAME parseSingleCommand(String)=>void parseSingleCommand(char) METHOD
+EditAction 1477056818731 PlanetExplorer.java 3476 15 18 0

@@ -45,8 +45,10 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.		
 		 */
 		
+		
+		
 		for(int indx = 0; indx < command.length(); indx++) {
-			
+			parseSingleCommand(command.charAt(indx));
 		}
 		
 	
@@ -84,7 +86,7 @@ public class PlanetExplorer {
 		return "("+posX+","+posY+","+headingToString(currentHeading)+")";		
 	}
 	
-	private void parseSingleCommand(String command) {	
+	private void parseSingleCommand(char command) {	
 		switch(command) 
 		{			
 			case "l": turnLeft(); break;			
