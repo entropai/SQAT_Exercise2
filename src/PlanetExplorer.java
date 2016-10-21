@@ -61,7 +61,10 @@ public class PlanetExplorer {
 		if(command.equals("f")) {
 			moveForward();
 			return parseStatus();
-		}	
+		}
+		
+		if(command.equals("b"))
+			moveBackwards();
 		
 		return null;
 	}	
