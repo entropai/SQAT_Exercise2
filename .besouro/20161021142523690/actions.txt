@@ -186,3 +186,12 @@ EditAction 1477051634659 TestPlanetExplorer.java 2288 7 16 8
 RefactoringAction 1477051857510 PlanetExplorer.java ADD string Position FIELD
 EditAction 1477051860927 PlanetExplorer.java 1666 5 8 0
 EditAction 1477051901380 TestPlanetExplorer.java 2212 7 12 6
+CompilationAction 1477051903287 TestPlanetExplorer.java
+RefactoringAction 1477051905888 TestPlanetExplorer.java REMOVE test_executeBackwardsCommand() METHOD
+RefactoringAction 1477051905890 TestPlanetExplorer.java REMOVE test_executeMoveForwardCommand() METHOD
+CompilationAction 1477051908862 TestPlanetExplorer.java
+RefactoringAction 1477051915925 TestPlanetExplorer.java ADD void test_ FIELD
+RefactoringAction 1477051920939 TestPlanetExplorer.java RENAME test_=>void test_SetExplorerPosition() METHOD
+RefactoringAction 1477052000513 TestPlanetExplorer.java RENAME test_SetExplorerPosition()=>void test_SetExplorerPositionAndHeading() METHOD
+RefactoringAction 1477052026599 TestPlanetExplorer.java RENAME test_SetExplorerPositionAndHeading()=>void test_setExplorerPositionAndHeading() METHOD
+EditAction 1477052084040 TestPlanetExplorer.java 2359 6 14 6
