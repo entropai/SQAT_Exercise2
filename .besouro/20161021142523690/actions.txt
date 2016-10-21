@@ -110,3 +110,11 @@ EditAction 1477050863820 TestPlanetExplorer.java 998 3 8 4
 UnitTestCaseAction 1477050871686 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1477050871687 TestPlanetExplorer.java FAIL
 EditAction 1477050919761 PlanetExplorer.java 1541 5 6 0
+UnitTestCaseAction 1477050922860 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477050922861 TestPlanetExplorer.java OK
+RefactoringAction 1477051009301 TestPlanetExplorer.java ADD void test_executeCommandWhenLanding()/2 METHOD
+RefactoringAction 1477051014316 TestPlanetExplorer.java RENAME test_executeCommandWhenLanding()/2=>void test_executeanding() METHOD
+RefactoringAction 1477051018832 TestPlanetExplorer.java RENAME test_executeanding()=>void test_executeTurnCommand() METHOD
+RefactoringAction 1477051023849 TestPlanetExplorer.java RENAME test_executeTurnCommand()=>void test_executeTurnLeftCommand() METHOD
+RefactoringAction 1477051028363 TestPlanetExplorer.java ADD void test_executeTurnLeftCommand()/2 METHOD
+EditAction 1477051032162 TestPlanetExplorer.java 1374 5 12 6
