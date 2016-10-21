@@ -108,7 +108,12 @@ public class PlanetExplorer {
 	}
 	
 	private void moveForward() {
-		posY += 1;		
+		switch(currentHeading) {
+			case NORTH: posX+=1;
+			case SOUTH: posX-=1;
+			case EAST: return "E";
+			case WEST: return "W";
+		}
 	}
 	
 	private void moveBackwards() {
