@@ -86,11 +86,11 @@ public class PlanetExplorer {
 	}
 	
 	private void turnLeft() {
-				
+		currentHeading = heading.WEST;
 	}
-	
-	private void turnRight() {
 		
+	private void turnRight() {
+		currentHeading = heading.EAST;
 	}
 	
 	private String headingToString(heading to) {
