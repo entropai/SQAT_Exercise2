@@ -361,3 +361,8 @@ EditAction 1477054293898 PlanetExplorer.java 2828 14 21 0
 UnitTestCaseAction 1477054296973 TestPlanetExplorer.java OK
 UnitTestSessionAction 1477054296974 TestPlanetExplorer.java OK
 EditAction 1477054326864 PlanetExplorer.java 2827 14 21 0
+RefactoringAction 1477054366376 TestPlanetExplorer.java RENAME test_executeMoveForwardCommand()=>void test_executeMoveForwardFacingNorthCommand() METHOD
+RefactoringAction 1477054371416 TestPlanetExplorer.java RENAME test_executeMoveBackwardsCommand()=>void test_executeMoveBackwardsFaCommand() METHOD
+RefactoringAction 1477054373646 TestPlanetExplorer.java RENAME test_executeMoveBackwardsFaCommand()=>void test_executeMoveBackwardsFacingECommand() METHOD
+RefactoringAction 1477054374879 TestPlanetExplorer.java RENAME test_executeMoveBackwardsFacingECommand()=>void test_executeMoveBackwardsFacingEastCommand() METHOD
+EditAction 1477054375130 TestPlanetExplorer.java 2884 8 24 9
