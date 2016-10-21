@@ -135,6 +135,7 @@ public class TestPlanetExplorer {
 	public void test_executeCommandAtSouthEdgeShouldWrap() {
 		explorer.setPosition(0, DEFAULT_HEIGHT-1);
 		explorer.setHeading(PlanetExplorer.heading.NORTH);
-		String status = explorer.executeCommand(COMMAND_MOVE_FORWARD);		
+		String status = explorer.executeCommand(COMMAND_MOVE_FORWARD);
+		assertEquals("Explorer position invalid FFRFF move commands", "(0,0,N)", status);
 	}
 }

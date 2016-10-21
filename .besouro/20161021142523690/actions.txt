@@ -603,3 +603,4 @@ RefactoringAction 1477057182223 TestPlanetExplorer.java RENAME test_executeComma
 RefactoringAction 1477057191601 TestPlanetExplorer.java RENAME test_executeCommandAtEdgeShouldWrap=>void test_executeCommandAtSouthEdgeShouldWrap FIELD
 RefactoringAction 1477057195483 TestPlanetExplorer.java RENAME test_executeCommandAtSouthEdgeShouldWrap=>void test_executeCommandAtSouthEdgeShouldWrap() METHOD
 EditAction 1477057313375 TestPlanetExplorer.java 4968 15 50 15
+EditAction 1477057341916 TestPlanetExplorer.java 5050 15 51 16
