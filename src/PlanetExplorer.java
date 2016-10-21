@@ -48,7 +48,7 @@ public class PlanetExplorer {
 		
 		
 		for(int indx = 0; indx < command.length(); indx++) {
-			parseSingleCommand(command.charAt(indx));
+			parseSingleCommand(Character.toString(command.charAt(indx)));
 		}
 		
 	
@@ -86,7 +86,7 @@ public class PlanetExplorer {
 		return "("+posX+","+posY+","+headingToString(currentHeading)+")";		
 	}
 	
-	private void parseSingleCommand(char command) {	
+	private void parseSingleCommand(String command) {	
 		switch(command) 
 		{			
 			case "l": turnLeft(); break;			

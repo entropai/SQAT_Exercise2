@@ -563,3 +563,7 @@ EditAction 1477056708390 PlanetExplorer.java 3431 15 18 0
 CompilationAction 1477056775929 PlanetExplorer.java
 RefactoringAction 1477056818349 PlanetExplorer.java RENAME parseSingleCommand(String)=>void parseSingleCommand(char) METHOD
 EditAction 1477056818731 PlanetExplorer.java 3476 15 18 0
+CompilationAction 1477056820621 PlanetExplorer.java
+CompilationAction 1477056828680 PlanetExplorer.java
+CompilationAction 1477056828896 PlanetExplorer.java
+EditAction 1477056880781 PlanetExplorer.java 3498 15 18 0
