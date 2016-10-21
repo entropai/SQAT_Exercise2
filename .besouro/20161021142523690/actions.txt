@@ -371,3 +371,4 @@ RefactoringAction 1477054388609 TestPlanetExplorer.java RENAME test_executeMoveF
 RefactoringAction 1477054389793 TestPlanetExplorer.java RENAME test_executeMoveForwardFacingCommand()=>void test_executeMoveForwardFacingEaCommand() METHOD
 RefactoringAction 1477054390885 TestPlanetExplorer.java RENAME test_executeMoveForwardFacingEaCommand()=>void test_executeMoveForwardFacingEastCommand() METHOD
 EditAction 1477054396130 TestPlanetExplorer.java 3178 9 28 10
+EditAction 1477054426671 TestPlanetExplorer.java 3178 9 28 10
