@@ -9,14 +9,14 @@ public class PlanetExplorer {
 	private String position;	
 	private int posX = 0;
 	private int posY = 0;
-	private enum headings {
+	private enum heading {
 		NORTH,
 		EAST,
 		WEST,
 		SOUTH		
 	} 
 	
-	private heading direction = headings.NORTH;
+	private heading direction = headingsNORTH;
 	
 	
 	

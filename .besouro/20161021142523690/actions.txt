@@ -242,3 +242,7 @@ RefactoringAction 1477052502176 PlanetExplorer.java RENAME d=><initializer /1> n
 RefactoringAction 1477052514736 PlanetExplorer.java RENAME headings=>enum HEADINGS null
 RefactoringAction 1477052533812 PlanetExplorer.java ADD heading direction FIELD
 EditAction 1477052542310 PlanetExplorer.java 1957 7 10 0
+CompilationAction 1477052543869 PlanetExplorer.java
+CompilationAction 1477052553575 PlanetExplorer.java
+CompilationAction 1477052553671 PlanetExplorer.java
+EditAction 1477052557749 PlanetExplorer.java 1955 7 10 0
