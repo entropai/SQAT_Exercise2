@@ -13,7 +13,7 @@ public class TestPlanetExplorer {
 	// Commands	
 	static String NO_COMMAND = "";
 	static String COMMAND_TURN_LEFT_INPLACE = "l";
-	static String TURN_RIGHT_INPLACE = "r";	
+	static String COMMAND_TURN_RIGHT_INPLACE = "r";	
 	static String MOVE_FORWARD = "f";
 	static String MOVE_BACKWARDS = "b";
 	
@@ -46,13 +46,13 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void test_executeTurnInPlaceLeftCommandAfterLanding() {
-		String status = explorer.executeCommand(TURN_LEFT_INPLACE);
+		String status = explorer.executeCommand(COMMAND_TURN_LEFT_INPLACE);
 		assertEquals("Explorer heading invalid in while turning left", HEADING_STATUS_LEFT_AFTER_LANDING, status);
 	}
 	
 	@Test
 	public void test_executeTurnInPlaceRightCommandAfterLanding() {
-		String status = explorer.executeCommand(TURN_RIGHT_INPLACE);
+		String status = explorer.executeCommand(COMMAND_TURN_RIGHT_INPLACE);
 		assertEquals("Explorer heading invalid in while turning right", HEADING_STATUS_RIGHT_AFTER_LANDING, status);
 	}
 	
@@ -62,13 +62,7 @@ public class TestPlanetExplorer {
 		 explorer.setHeading(PlanetExplorer.heading.EAST);
 		 String status = explorer.getPosition();
 		 assertEquals("Explorer position invalid", "(5,4,E)", status);
-	}
-	
-	@
-	public void test_TurnMultipleTimesLeftInitiallyFacingNorth() {
-		explorer.setPosition(1, 1);
-		explorer.executeCommand()
-	}
+	}	
 	
 	@Test
 	public void test_executeMoveForwardFacingNorthCommand() {
