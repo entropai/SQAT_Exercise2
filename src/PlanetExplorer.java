@@ -49,14 +49,7 @@ public class PlanetExplorer {
 			
 		}
 		
-		switch(command) 
-		{
-			case "": return parseStatus();
-			case "l": turnLeft(); break;			
-			case "r": turnRight(); break;
-			case "f": moveForward(); break;
-			case "b": moveBackwards(); break;
-		}
+	
 		
 		return parseStatus();	
 		
@@ -89,6 +82,16 @@ public class PlanetExplorer {
 	
 	private String parseStatus() {
 		return "("+posX+","+posY+","+headingToString(currentHeading)+")";		
+	}
+	
+	private void parseSingleCommand(String command) {	
+		switch(command) 
+		{			
+			case "l": turnLeft(); break;			
+			case "r": turnRight(); break;
+			case "f": moveForward(); break;
+			case "b": moveBackwards(); break;
+		}
 	}
 	
 	private void turnLeft() {

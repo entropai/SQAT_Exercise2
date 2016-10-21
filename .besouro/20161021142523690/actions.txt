@@ -556,3 +556,7 @@ UnitTestSessionAction 1477056488273 TestPlanetExplorer.java FAIL
 RefactoringAction 1477056604038 PlanetExplorer.java ADD String parseStatus()/2 METHOD
 RefactoringAction 1477056654500 PlanetExplorer.java REMOVE parseStatus()/2 METHOD
 EditAction 1477056659968 PlanetExplorer.java 3403 14 18 0
+RefactoringAction 1477056675342 PlanetExplorer.java ADD void parseS FIELD
+RefactoringAction 1477056677949 PlanetExplorer.java RENAME parseS=>void parseSingleCommand() METHOD
+RefactoringAction 1477056683361 PlanetExplorer.java RENAME parseSingleCommand()=>void parseSingleCommand(String) METHOD
+EditAction 1477056708390 PlanetExplorer.java 3431 15 18 0
