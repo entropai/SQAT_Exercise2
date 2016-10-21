@@ -342,3 +342,6 @@ EditAction 1477054126265 PlanetExplorer.java 2701 13 19 0
 UnitTestCaseAction 1477054129039 TestPlanetExplorer.java OK
 UnitTestSessionAction 1477054129040 TestPlanetExplorer.java OK
 EditAction 1477054143381 PlanetExplorer.java 2702 13 19 0
+RefactoringAction 1477054151083 TestPlanetExplorer.java ADD void test_executeMoveForwardCommand()/2 METHOD
+RefactoringAction 1477054157555 TestPlanetExplorer.java RENAME test_executeMoveForwardCommand()/2=>void test_executeMoveBackwardsCommand() METHOD
+EditAction 1477054196990 TestPlanetExplorer.java 2852 8 24 9
