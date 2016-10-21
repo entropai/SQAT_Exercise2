@@ -47,6 +47,10 @@ public class PlanetExplorer {
 		position = newStatus;
 	}
 	
+	public void getPosition() {
+		return position;
+	}
+	
 	public int[][] getMap() {
 		return map;
 	}
