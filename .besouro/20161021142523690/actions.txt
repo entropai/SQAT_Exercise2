@@ -16,3 +16,12 @@ CompilationAction 1477049818407 TestPlanetExplorer.java
 CompilationAction 1477049818408 TestPlanetExplorer.java
 RefactoringAction 1477049844327 PlanetExplorer.java ADD char FIELD
 EditAction 1477049845858 PlanetExplorer.java 1301 2 1 0
+CompilationAction 1477049847937 TestPlanetExplorer.java
+CompilationAction 1477049847938 TestPlanetExplorer.java
+CompilationAction 1477049908516 TestPlanetExplorer.java
+CompilationAction 1477049908517 TestPlanetExplorer.java
+RefactoringAction 1477049933535 PlanetExplorer.java ADD int getPlanetWidht() METHOD
+RefactoringAction 1477050097145 PlanetExplorer.java ADD int get FIELD
+RefactoringAction 1477050098662 PlanetExplorer.java RENAME get=>int getPlane FIELD
+RefactoringAction 1477050103683 PlanetExplorer.java RENAME getPlane=>int getPlanetHeight() METHOD
+EditAction 1477050122195 PlanetExplorer.java 1446 4 4 0

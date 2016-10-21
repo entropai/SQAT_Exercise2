@@ -5,7 +5,7 @@
 
 public class PlanetExplorer {
 	
-	private char[][] map;
+	private int[][] map;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -15,6 +15,8 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
 	 */
+		
+		map = new int[x][y];
 	}
 	
 	public String executeCommand(String command){
@@ -30,5 +32,13 @@ public class PlanetExplorer {
 		 */
 		
 		return null;
+	}
+	
+	public int getPlanetWidht() {
+		return map.length;		
+	}
+	
+	public int getPlanetHeight() {
+		return map[0].length;
 	}
 }
