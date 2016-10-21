@@ -237,3 +237,8 @@ RefactoringAction 1477052395569 PlanetExplorer.java RENAME SOUTH=>direction EAST
 RefactoringAction 1477052396585 PlanetExplorer.java ADD direction So FIELD
 RefactoringAction 1477052398102 PlanetExplorer.java RENAME So=>direction SOUTH FIELD
 EditAction 1477052402582 PlanetExplorer.java 1909 7 10 0
+RefactoringAction 1477052498658 PlanetExplorer.java RENAME direction=>enum d null
+RefactoringAction 1477052502176 PlanetExplorer.java RENAME d=><initializer /1> null
+RefactoringAction 1477052514736 PlanetExplorer.java RENAME headings=>enum HEADINGS null
+RefactoringAction 1477052533812 PlanetExplorer.java ADD heading direction FIELD
+EditAction 1477052542310 PlanetExplorer.java 1957 7 10 0
