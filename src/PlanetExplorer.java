@@ -10,7 +10,7 @@ public class PlanetExplorer {
 	private int posX = 0;
 	private int posY = 0;	
 	
-	private heading direction = heading.NORTH;
+	private heading currentHeading = heading.NORTH;
 	
 	public enum heading {
 		NORTH,
@@ -75,5 +75,16 @@ public class PlanetExplorer {
 	
 	public int getPlanetHeight() {
 		return map[0].length;
+	}
+	
+	private String parseStatus() {
+		return "("+posX+","+posY+","+headingToString(currentHeading)+")";		
+	}
+	
+	private String headingToString(heading to) {
+		switch(to) {
+		case heading.
+		}		
+		return null;
 	}
 }

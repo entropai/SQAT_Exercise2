@@ -249,3 +249,24 @@ EditAction 1477052557749 PlanetExplorer.java 1955 7 10 0
 CompilationAction 1477052559519 PlanetExplorer.java
 EditAction 1477052562843 PlanetExplorer.java 1955 7 10 0
 EditAction 1477052694325 PlanetExplorer.java 1967 7 10 0
+CompilationAction 1477052696304 PlanetExplorer.java
+RefactoringAction 1477052715151 PlanetExplorer.java ADD String parseStatus() METHOD
+CompilationAction 1477052803832 PlanetExplorer.java
+CompilationAction 1477052804052 PlanetExplorer.java
+CompilationAction 1477052804053 PlanetExplorer.java
+CompilationAction 1477052804054 PlanetExplorer.java
+CompilationAction 1477052813712 PlanetExplorer.java
+CompilationAction 1477052813713 PlanetExplorer.java
+CompilationAction 1477052813715 PlanetExplorer.java
+CompilationAction 1477052813930 PlanetExplorer.java
+CompilationAction 1477052813931 PlanetExplorer.java
+CompilationAction 1477052813932 PlanetExplorer.java
+RefactoringAction 1477052869524 PlanetExplorer.java ADD String heading FIELD
+RefactoringAction 1477052870541 PlanetExplorer.java RENAME heading=>String headingTo FIELD
+RefactoringAction 1477052873059 PlanetExplorer.java RENAME headingTo=>String headingToString() METHOD
+RefactoringAction 1477052882105 PlanetExplorer.java RENAME headingToString()=>String headingToString(heading) METHOD
+CompilationAction 1477052887208 PlanetExplorer.java
+CompilationAction 1477052887209 PlanetExplorer.java
+RefactoringAction 1477052945690 PlanetExplorer.java RENAME headingToString(heading)=>String headingToString() METHOD
+RefactoringAction 1477052948708 PlanetExplorer.java RENAME headingToString()=>String headingToString(heading) METHOD
+EditAction 1477052979547 PlanetExplorer.java 2182 9 11 0
