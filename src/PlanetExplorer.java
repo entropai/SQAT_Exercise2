@@ -66,6 +66,10 @@ public class PlanetExplorer {
 		posY = ny;
 	}
 	
+	public void setHeading(heading newHeading) {
+		currentHeading = newHeading;
+	}
+	
 	public String getPosition() {
 		return position;
 	}
