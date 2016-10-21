@@ -287,3 +287,9 @@ CompilationAction 1477053287411 PlanetExplorer.java
 CompilationAction 1477053287412 PlanetExplorer.java
 RefactoringAction 1477053304250 PlanetExplorer.java ADD void turnLeft() METHOD
 EditAction 1477053308525 PlanetExplorer.java 2322 9 13 0
+CompilationAction 1477053310578 PlanetExplorer.java
+CompilationAction 1477053310579 PlanetExplorer.java
+RefactoringAction 1477053315794 PlanetExplorer.java ADD void turn FIELD
+RefactoringAction 1477053317983 PlanetExplorer.java RENAME turn=>void turnLeft() METHOD
+RefactoringAction 1477053325314 PlanetExplorer.java ADD void turnRight() METHOD
+EditAction 1477053342224 PlanetExplorer.java 2395 11 13 0

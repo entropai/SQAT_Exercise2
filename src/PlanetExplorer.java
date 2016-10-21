@@ -85,6 +85,14 @@ public class PlanetExplorer {
 		return "("+posX+","+posY+","+headingToString(currentHeading)+")";		
 	}
 	
+	private void turnLeft() {
+				
+	}
+	
+	private void turnRight() {
+		
+	}
+	
 	private String headingToString(heading to) {
 		switch(to) {
 			case NORTH: return "N";
