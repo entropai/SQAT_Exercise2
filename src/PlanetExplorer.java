@@ -59,7 +59,7 @@ public class PlanetExplorer {
 		}
 		
 		return null;
-	}
+	}	
 	
 	public void setPosition(String newStatus) {
 		position = newStatus;

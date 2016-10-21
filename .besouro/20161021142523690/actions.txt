@@ -283,3 +283,7 @@ EditAction 1477053259889 PlanetExplorer.java 2286 9 13 0
 EditAction 1477053272906 PlanetExplorer.java 2301 9 13 0
 CompilationAction 1477053274854 PlanetExplorer.java
 EditAction 1477053285354 PlanetExplorer.java 2321 9 13 0
+CompilationAction 1477053287411 PlanetExplorer.java
+CompilationAction 1477053287412 PlanetExplorer.java
+RefactoringAction 1477053304250 PlanetExplorer.java ADD void turnLeft() METHOD
+EditAction 1477053308525 PlanetExplorer.java 2322 9 13 0
