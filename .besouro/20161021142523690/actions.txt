@@ -156,3 +156,11 @@ UnitTestCaseAction 1477051327673 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1477051327674 TestPlanetExplorer.java FAIL
 EditAction 1477051376732 PlanetExplorer.java 1640 5 8 0
 EditAction 1477051381678 PlanetExplorer.java 1640 5 8 0
+UnitTestCaseAction 1477051385343 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477051385345 TestPlanetExplorer.java OK
+RefactoringAction 1477051472197 TestPlanetExplorer.java ADD String TURN_LEFT_INPLACE/2 FIELD
+RefactoringAction 1477051472200 TestPlanetExplorer.java ADD String TURN_RIGHT_INPLACE/2 FIELD
+RefactoringAction 1477051478733 TestPlanetExplorer.java RENAME TURN_LEFT_INPLACE/2=>String MOVE_LEFT_INPLACE FIELD
+RefactoringAction 1477051483749 TestPlanetExplorer.java RENAME MOVE_LEFT_INPLACE=>String MOVE_FORWARD FIELD
+RefactoringAction 1477051498285 TestPlanetExplorer.java RENAME TURN_RIGHT_INPLACE/2=>String MOVE_BACKWARDS FIELD
+EditAction 1477051500051 TestPlanetExplorer.java 1740 5 12 6
