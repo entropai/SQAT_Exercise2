@@ -40,12 +40,12 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void test_executeTurnInPlaceLeftCommand() {
-		String status = explorer.executeCommand(NO_COMMAND);
+		String status = explorer.executeCommand(TURN_LEFT_INPLACE);
 		assertEquals("Explorer heading invalid in while turning left", HEADING_STATUS_LEFT, status);
 	}
 	
 	public void test_executeTurnInPlaceRightCommand() {
-		String status = explorer.executeCommand(NO_COMMAND);
+		String status = explorer.executeCommand(TURN_RIGHT_INPLACE);
 		assertEquals("Explorer heading invalid in while turning right", HEADING_STATUS_RIGHT, status);
 	}
 	

@@ -136,3 +136,4 @@ RefactoringAction 1477051194877 TestPlanetExplorer.java ADD String HEADING_STATU
 RefactoringAction 1477051197889 TestPlanetExplorer.java RENAME HEADING_STATUS_LEFT/2=>String HEADING_STATUS_RIGHT FIELD
 EditAction 1477051200170 TestPlanetExplorer.java 1591 5 12 6
 EditAction 1477051230942 TestPlanetExplorer.java 1602 5 12 6
+EditAction 1477051247715 TestPlanetExplorer.java 1617 5 12 6
