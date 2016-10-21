@@ -2,8 +2,6 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import PlanetExplorer.heading;
-
 public class TestPlanetExplorer {
 
 		
@@ -65,6 +63,16 @@ public class TestPlanetExplorer {
 		String status = explorer.executeCommand(COMMAND_TURN_LEFT_INPLACE);
 		status = explorer.executeCommand(COMMAND_TURN_LEFT_INPLACE);
 		status = explorer.executeCommand(COMMAND_TURN_LEFT_INPLACE);
+		
+		assertEquals("Wrong heading after turning three times", "(1,1,E)", status);
+	}
+	
+	@Test
+	public void test_executeTurnRightTwiceTimesInitiallyFacingEast() {
+		explorer.setPosition(1, 1);
+		explorer.setHeading(PlanetExplorer.heading.EAST);
+		String status = explorer.executeCommand(COMMAND_TURN_RIGHT_INPLACE);
+		status = explorer.executeCommand(COMMAND_TURN_RIGHT_INPLACE);		
 		
 		assertEquals("Wrong heading after turning three times", "(1,1,E)", status);
 	}
