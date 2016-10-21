@@ -92,3 +92,8 @@ UnitTestSessionAction 1477050522429 TestPlanetExplorer.java FAIL
 RefactoringAction 1477050555954 PlanetExplorer.java ADD int FIELD
 RefactoringAction 1477050557471 PlanetExplorer.java RENAME get=>int METHOD
 EditAction 1477050564473 PlanetExplorer.java 1492 5 5 0
+UnitTestCaseAction 1477050599618 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477050599619 TestPlanetExplorer.java OK
+RefactoringAction 1477050628231 TestPlanetExplorer.java ADD void test_createNewPlanetSizeMatchesWithoutObstacles()/2 METHOD
+RefactoringAction 1477050633769 TestPlanetExplorer.java REMOVE test_createNewPlanetSizeMatchesWithoutObstacles()/2 METHOD
+EditAction 1477050635750 TestPlanetExplorer.java 786 3 6 3

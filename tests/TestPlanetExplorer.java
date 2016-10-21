@@ -24,9 +24,8 @@ public class TestPlanetExplorer {
 		int y = explorer.getPlanetHeight();
 		assertEquals("Created planet width is in correct ", DEFAULT_WIDTH, x);
 		assertEquals("Created planet height is in correct ", DEFAULT_HEIGHT, y);		
-	}
-	
-	
+	}	
+		
 	@Test
 	public void test_executeCommand() {
 		
