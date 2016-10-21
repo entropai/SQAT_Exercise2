@@ -176,3 +176,10 @@ RefactoringAction 1477051579442 TestPlanetExplorer.java ADD void test_executeTur
 RefactoringAction 1477051590457 TestPlanetExplorer.java RENAME test_executeTurnInPlaceRightCommand()/2=>void test_executeMoveForwardCommand() METHOD
 RefactoringAction 1477051597972 TestPlanetExplorer.java RENAME test_executeTurnInPlaceRightCommand()=>void test_executeTurnInPlaceRightCommandAfterLanding() METHOD
 EditAction 1477051602432 TestPlanetExplorer.java 2056 6 14 7
+RefactoringAction 1477051620002 TestPlanetExplorer.java ADD void test_executeMoveForwardCommand()/2 METHOD
+RefactoringAction 1477051627017 TestPlanetExplorer.java RENAME test_executeMoveForwardCommand()/2=>void test_executeorwardCommand() METHOD
+RefactoringAction 1477051628531 TestPlanetExplorer.java RENAME test_executeorwardCommand()=>void test_executeBackorwardCommand() METHOD
+RefactoringAction 1477051629544 TestPlanetExplorer.java RENAME test_executeBackorwardCommand()=>void test_executeBackWorwardCommand() METHOD
+RefactoringAction 1477051630558 TestPlanetExplorer.java RENAME test_executeBackWorwardCommand()=>void test_executeBackorwardCommand() METHOD
+RefactoringAction 1477051633570 TestPlanetExplorer.java RENAME test_executeBackorwardCommand()=>void test_executeBackwardsCommand() METHOD
+EditAction 1477051634659 TestPlanetExplorer.java 2288 7 16 8

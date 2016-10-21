@@ -62,5 +62,11 @@ public class TestPlanetExplorer {
 		assertEquals("Explorer heading invalid in while turning right", HEADING_STATUS_RIGHT_AFTER_LANDING, status);
 	}
 	
+	@Test
+	public void test_executeBackwardsCommand() {
+		String status = explorer.executeCommand(TURN_RIGHT_INPLACE);
+		assertEquals("Explorer heading invalid in while turning right", HEADING_STATUS_RIGHT_AFTER_LANDING, status);
+	}
+	
 	
 }
