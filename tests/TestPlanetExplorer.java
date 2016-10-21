@@ -64,7 +64,7 @@ public class TestPlanetExplorer {
 	}
 	
 	
-	/*
+	
 	@Test
 	public void test_executeMoveForwardCommand() {
 		String status = explorer.executeCommand(MOVE_FORWARD);		
@@ -76,6 +76,5 @@ public class TestPlanetExplorer {
 		String status = explorer.executeCommand(MOVE_BACKWARDS);
 		assertEquals("Explorer position invalid after moving backwards", , status);
 	}
-	*/
 	
 }

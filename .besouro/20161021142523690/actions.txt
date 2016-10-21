@@ -294,3 +294,8 @@ RefactoringAction 1477053317983 PlanetExplorer.java RENAME turn=>void turnLeft()
 RefactoringAction 1477053325314 PlanetExplorer.java ADD void turnRight() METHOD
 EditAction 1477053342224 PlanetExplorer.java 2395 11 13 0
 EditAction 1477053377912 PlanetExplorer.java 2454 11 15 0
+UnitTestCaseAction 1477053381502 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477053381503 TestPlanetExplorer.java OK
+RefactoringAction 1477053476744 TestPlanetExplorer.java ADD void test_executeMoveForwardCommand() METHOD
+RefactoringAction 1477053476746 TestPlanetExplorer.java ADD void test_executeBackwardsCommand() METHOD
+EditAction 1477053480841 TestPlanetExplorer.java 2422 8 15 7
