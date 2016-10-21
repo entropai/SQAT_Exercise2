@@ -105,3 +105,5 @@ RefactoringAction 1477050766971 TestPlanetExplorer.java ADD String LANDING_STATU
 CompilationAction 1477050786757 TestPlanetExplorer.java
 CompilationAction 1477050786759 TestPlanetExplorer.java
 EditAction 1477050821044 TestPlanetExplorer.java 949 3 8 4
+RefactoringAction 1477050838675 TestPlanetExplorer.java RENAME test_executeCommand()=>void test_executeCommandWhenLanding() METHOD
+EditAction 1477050863820 TestPlanetExplorer.java 998 3 8 4

@@ -28,8 +28,8 @@ public class TestPlanetExplorer {
 	}	
 		
 	@Test
-	public void test_executeCommand() {
+	public void test_executeCommandWhenLanding() {
 		String status = explorer.executeCommand(NO_COMMAND);
-		assertEquals(LANDING_STATUS, status);
+		assertEquals("Explorer status invalid in landing", LANDING_STATUS, status);
 	}
 }
