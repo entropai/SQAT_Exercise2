@@ -33,6 +33,11 @@ public class PlanetExplorer {
 		if(command.equals(""))
 			return "(0,0,N)";
 		
+		if(command.equals("l"))
+			return "(0,0,W)";
+		
+		if(command.equals("l"))
+			return "(0,0,W)";		
 		
 		return null;
 	}
