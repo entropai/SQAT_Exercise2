@@ -109,7 +109,12 @@ public class PlanetExplorer {
 	}
 		
 	private void turnRight() {
-		currentHeading = heading.EAST;
+		switch(currentHeading) {
+			case NORTH: setHeading(heading.WEST); break;
+			case SOUTH: setHeading(heading.EAST); break;
+			case EAST: setHeading(heading.NORTH); break;
+			case WEST: setHeading(heading.SOUTH); break;
+		}
 	}
 	
 	private void moveForward() {
