@@ -7,6 +7,8 @@ public class PlanetExplorer {
 	
 	private int[][] map;
 	private String position;	
+	private int posX = 0;
+	private int posY = 0;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -47,7 +49,7 @@ public class PlanetExplorer {
 		position = newStatus;
 	}
 	
-	public void getPosition() {
+	public String getPosition() {
 		return position;
 	}
 	

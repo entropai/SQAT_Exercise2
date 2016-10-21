@@ -220,3 +220,11 @@ EditAction 1477052265762 TestPlanetExplorer.java 2428 6 15 7
 CompilationAction 1477052267648 TestPlanetExplorer.java
 RefactoringAction 1477052280281 PlanetExplorer.java ADD void getPosition() METHOD
 EditAction 1477052286781 PlanetExplorer.java 1794 7 10 0
+CompilationAction 1477052288630 PlanetExplorer.java
+CompilationAction 1477052288631 TestPlanetExplorer.java
+UnitTestCaseAction 1477052290583 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477052290584 TestPlanetExplorer.java FAIL
+CompilationAction 1477052299676 PlanetExplorer.java
+UnitTestCaseAction 1477052301948 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477052301949 TestPlanetExplorer.java OK
+EditAction 1477052338678 PlanetExplorer.java 1842 7 10 0
