@@ -12,7 +12,7 @@ public class TestPlanetExplorer {
 	
 	// Commands	
 	static String NO_COMMAND = "";
-	static String TURN_LEFT_INPLACE = "l";
+	static String COMMAND_TURN_LEFT_INPLACE = "l";
 	static String TURN_RIGHT_INPLACE = "r";	
 	static String MOVE_FORWARD = "f";
 	static String MOVE_BACKWARDS = "b";
@@ -64,7 +64,11 @@ public class TestPlanetExplorer {
 		 assertEquals("Explorer position invalid", "(5,4,E)", status);
 	}
 	
-	
+	@
+	public void test_TurnMultipleTimesLeftInitiallyFacingNorth() {
+		explorer.setPosition(1, 1);
+		explorer.executeCommand()
+	}
 	
 	@Test
 	public void test_executeMoveForwardFacingNorthCommand() {

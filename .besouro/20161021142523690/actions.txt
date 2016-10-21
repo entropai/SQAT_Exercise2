@@ -396,3 +396,21 @@ EditAction 1477054713674 TestPlanetExplorer.java 3482 10 32 11
 UnitTestCaseAction 1477054716531 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1477054716532 TestPlanetExplorer.java FAIL
 EditAction 1477054781667 PlanetExplorer.java 3100 14 21 0
+UnitTestCaseAction 1477054784322 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477054784323 TestPlanetExplorer.java OK
+RefactoringAction 1477054837247 TestPlanetExplorer.java ADD void test_TurnMultipleTimesLeft() METHOD
+RefactoringAction 1477054865237 TestPlanetExplorer.java RENAME test_TurnMultipleTimesLeft()=>void test_TurnMultipleTimesLeftFa() METHOD
+RefactoringAction 1477054867794 TestPlanetExplorer.java RENAME test_TurnMultipleTimesLeftFa()=>void test_TurnMultipleTimesLeftInitially() METHOD
+RefactoringAction 1477054869245 TestPlanetExplorer.java RENAME test_TurnMultipleTimesLeftInitially()=>void test_TurnMultipleTimesLeftInitiallyFacing() METHOD
+RefactoringAction 1477054870868 TestPlanetExplorer.java RENAME test_TurnMultipleTimesLeftInitiallyFacing()=>void test_TurnMultipleTimesLeftInitiallyFacingNorth() METHOD
+RefactoringAction 1477054928288 TestPlanetExplorer.java RENAME TURN_LEFT_INPLACE=>String CITURN_LEFT_INPLACE FIELD
+RefactoringAction 1477054930468 TestPlanetExplorer.java RENAME CITURN_LEFT_INPLACE=>String COMMAND_TURN_LEFT_INPLACE FIELD
+RefactoringAction 1477054933486 TestPlanetExplorer.java RENAME TURN_RIGHT_INPLACE=>String COMMAND_TURN_RIGHT_INPLACE FIELD
+RefactoringAction 1477054936001 TestPlanetExplorer.java RENAME MOVE_FORWARD=>String CMOVE_FORWARD FIELD
+RefactoringAction 1477054938850 TestPlanetExplorer.java RENAME CMOVE_FORWARD=>String COMMAND_MOVE_FORWARD FIELD
+RefactoringAction 1477054945339 TestPlanetExplorer.java ADD String URN_LEFT_INPLACE FIELD
+RefactoringAction 1477054945341 TestPlanetExplorer.java ADD String TURN_RIGHT_INPLACE FIELD
+RefactoringAction 1477054945342 TestPlanetExplorer.java ADD String MOVE_FORWARD FIELD
+RefactoringAction 1477054946526 TestPlanetExplorer.java RENAME URN_LEFT_INPLACE=>String TURN_LEFT_INPLACE FIELD
+RefactoringAction 1477054960553 TestPlanetExplorer.java RENAME TURN_LEFT_INPLACE=>String COMMAND_TURN_LEFT_INPLACE FIELD
+EditAction 1477054962077 TestPlanetExplorer.java 3616 11 32 11
