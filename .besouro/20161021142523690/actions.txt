@@ -589,3 +589,4 @@ RefactoringAction 1477057069339 TestPlanetExplorer.java RENAME COMMAND=>String C
 RefactoringAction 1477057070059 TestPlanetExplorer.java RENAME COMMAND_F=>String COMMAND_FF FIELD
 RefactoringAction 1477057071523 TestPlanetExplorer.java RENAME COMMAND_FF=>String COMMAND_FFRFF FIELD
 EditAction 1477057079844 TestPlanetExplorer.java 4757 14 47 15
+EditAction 1477057120069 TestPlanetExplorer.java 4738 14 47 15

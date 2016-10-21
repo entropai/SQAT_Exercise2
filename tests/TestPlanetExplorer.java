@@ -127,8 +127,8 @@ public class TestPlanetExplorer {
 	
 	@Test 
 	public void test_executeCommandSequenceFFRFF() {
-		String status = explorer.executeCommand(COMMAND_MOVE_FORWARD_3_TIMES);
-		assertEquals("Explorer position invalid 3 move forward commands", "(0,3,N)", status);
+		String status = explorer.executeCommand(COMMAND_FFRFF);
+		assertEquals("Explorer position invalid FFRFF move commands", "(2,2,E)", status);
 	}
 	
 		
