@@ -14,7 +14,7 @@ public class TestPlanetExplorer {
 	static String NO_COMMAND = "";
 	static String COMMAND_TURN_LEFT_INPLACE = "l";
 	static String COMMAND_TURN_RIGHT_INPLACE = "r";	
-	static String MOVE_FORWARD = "f";
+	static String COMMAND_MOVE_FORWARD = "f";
 	static String MOVE_BACKWARDS = "b";
 	
 	// Fixture
@@ -68,7 +68,7 @@ public class TestPlanetExplorer {
 	public void test_executeMoveForwardFacingNorthCommand() {
 		explorer.setPosition(7,6);
 		explorer.setHeading(PlanetExplorer.heading.NORTH);
-		String status = explorer.executeCommand(MOVE_FORWARD);		
+		String status = explorer.executeCommand(COMMAND_MOVE_FORWARD);		
 		assertEquals("Explorer position invalid after moving forward", "(7,7,N)" , status);
 	}
 	
@@ -84,7 +84,7 @@ public class TestPlanetExplorer {
 	public void test_executeMoveForwardFacingEastCommand() {
 		explorer.setPosition(7,6);
 		explorer.setHeading(PlanetExplorer.heading.EAST);
-		String status = explorer.executeCommand(MOVE_FORWARD);		
+		String status = explorer.executeCommand(COMMAND_MOVE_FORWARD);		
 		assertEquals("Explorer position invalid after moving forward", "(8,6,E)" , status);
 	}
 	

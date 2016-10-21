@@ -464,3 +464,9 @@ CompilationAction 1477055160989 TestPlanetExplorer.java
 CompilationAction 1477055173361 TestPlanetExplorer.java
 RefactoringAction 1477055184441 TestPlanetExplorer.java RENAME TURN_RIGHT_INPLACE=>String COMMAND_TURN_RIGHT_INPLACE FIELD
 EditAction 1477055184448 TestPlanetExplorer.java 3511 10 32 11
+RefactoringAction 1477055201305 TestPlanetExplorer.java RENAME MOVE_FORWARD=>String COMMAND_ FIELD
+RefactoringAction 1477055202678 TestPlanetExplorer.java RENAME COMMAND_=>String COMMAND_MOVE_ FIELD
+RefactoringAction 1477055204814 TestPlanetExplorer.java RENAME COMMAND_MOVE_=>String COMMAND_MOVE_FORWARD FIELD
+RefactoringAction 1477055205042 TestPlanetExplorer.java RENAME COMMAND_MOVE_FORWARD=>String MOVE_FORWARD FIELD
+RefactoringAction 1477055205186 TestPlanetExplorer.java RENAME MOVE_FORWARD=>String COMMAND_MOVE_FORWARD FIELD
+EditAction 1477055205189 TestPlanetExplorer.java 3535 10 32 11
